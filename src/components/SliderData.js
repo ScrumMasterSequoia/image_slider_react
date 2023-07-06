@@ -11,9 +11,9 @@ export const SliderData = [
     {
         image: 'https://images.unsplash.com/photo-1561016696-094e2baeab5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60'
     },
-    {
-     image: "<a href='https://www.radionemo.com/weekends' target='_blank'><img src='https://images.unsplash.com/photo-1604989558437-853b50d6c331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60' style={{width: '100%'}} /></a>"
-    }
+    // {
+    //  image: "<a href='https://www.radionemo.com/weekends' target='_blank'><img src='https://images.unsplash.com/photo-1604989558437-853b50d6c331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60' style={{width: '100%'}} /></a>"
+    // }
     // ,
     // <div>{
     //     <a href="https://www.radionemo.com/weekends" target="_blank"><img src="https://images.unsplash.com/photo-1604989558437-853b50d6c331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60" style={{width: "100%"}} /></a>
