@@ -2,11 +2,11 @@ import { SliderData } from './SliderData'
 import { useState, useEffect } from 'react'
 
 const ImageSlider = ({ slides }) => {
-    const[current, setCurrent] = useState(0)
+    const[current, setCurrent] = useState(0) //initial state is 0
     const length = slides.length
 
     const nextSlide = () => {
-        setCurrent(current === length -1 ? 0 : current + 1)
+        setCurrent(current === length -1 ? 0 : current + 1) // incriment if not at end
     }
 
     console.log(current)
@@ -31,8 +31,8 @@ const ImageSlider = ({ slides }) => {
             <section className="slider">
                 {
                     SliderData.map((slide, index) => {
-                        return(
-                            <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                        return(// only display the current slide using classes
+                            <div className={index === current ? 'slide active' : 'slide'} key={index}> 
                                 {index === current && (<img src={slide.image} alt="Failed to load" className="image"/>)}
                             </div>
                         )
@@ -56,13 +56,9 @@ export default ImageSlider
 // <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>
 // <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/> */}
 
-
-
 // const prevSlide = () => {
 //     setCurrent(current === 0 ? length - 1 : current - 1)
 // }
-
-
 
 
 // Sample showing how to use the map function with use state

@@ -9,9 +9,3 @@ function App() {
 }
 
 export default App;
-
-// source:
-
-// https://www.youtube.com/watch?v=l1MYfu5YWHc
-
-//Build a React Image Slider Carousel from Scratch Tutorial

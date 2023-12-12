@@ -1,3 +1,14 @@
+This is the first and simplest project for my portfolio website. It is a simple image slider with two possible implimentations available. Currently the project uses setTimeout to rotate the images, however the original project used buttons assigned to prevSlide and nextSlide. If you want to switch, just comment and uncomment the appropriate places. May need to debug a bit to make sure everything is working. 
+
+App.js imports the ImageSlider and SliderData components. It then makes an ImageSlider Component where the slides array is filled with images from the SliderData file. Using CSS classes in a ternary operator, we manipulate the opacity of the images, thus only rendering the desired image.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
